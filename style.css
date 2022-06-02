@@ -25,7 +25,8 @@ nav {
     padding: 20px 0px 0 30px;
 }
 .search_bar{
-    width: 300px;
+    width: 275px;
+    margin-right: 40px;
 }
 .search_bar>input{
     color: black;
