@@ -37,6 +37,7 @@ nav {
     position: absolute;
     top: 19px;
     left: 92%;
+    border: none;
     padding: 6px 15px;
     background: orangered;
     border-radius: 10px;
