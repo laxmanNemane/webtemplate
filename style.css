@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header::before {
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 670px;
+    color: black;
+    z-index: -1;
+    /* opacity: ; */
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 0px 0 30px;
+}
+.search_bar{
+    width: 275px;
+}
+.search_bar>input{
+    color: black;
+}
+
+.serch_icon{
+    color: white;
+    position: absolute;
+    top: 21px;
+    left: 90%;
+    padding: 5px 11px;
+    background: orangered;
+    border-radius: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    /* position: relative; */
+    padding: 8px 20px;
+    font-weight: 600;
+}
+
+nav p {
+    color: orange;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+nav p .fa {
+    color: grey;
+    font-size: 17px;
+}
+
+nav input {
+    margin-right: 80px;
+    /* margin-top: 5px */
+    border: 1px solid orange;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+.span
+{
+    margin: 10px 0 0 0;
+}
+
+/* all section section styling  */
+
+section {
+    width: 90%;
+    margin: 75px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 382px;
+
+}
+
+/* login page styling */
+
+.login-page {
+    background: black;
+    color: white;
+    padding: 19px 19px;
+    border-radius: 10px;
+    margin-right: 5%;
+    line-height: 2;
+    width: 19%;
+}
+
+.login-here-btn {
+    width: 100%;
+    border-radius: 8px;
+    background: white;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: orange;
+}
+
+.input {
+    border: none;
+    width: 96%;
+    padding: 5px;
+    margin: 25px 0 0 0;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    border-bottom: 2px solid orange;
+}
+
+.login-btn {
+    margin: 25px 0 0 0;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: orange;
+    border-radius: 8px;
+}
+
+.p-acc {
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+p {
+    text-align: center;
+    line-height: 1.2;
+}
+
+.sign_up {
+
+    color: orange;
+    text-decoration: none;
+}
+
+.here {
+    color: white;
+}
+
+.log-in-with {
+    font-size: 13px;
+    padding: 10px 0 0 0;
+}
+
+.icons {
+    margin: 0 10px 0 0;
+}
+
+.icon {
+    margin: 10px;
+    font-size: 27px;
+}
+
+.icon:hover {
+    color: orange;
+}
+
+
+/* description  element styling */
+
+.description {
+    line-height: 1;
+    width: 44%;
+    color: white;
+}
+
+.developer {
+    color: orange;
+}
+
+.description>h1 {
+    font-size: 50px;
+}
+
+.join-us {
+    background-color: orange;
+    padding: 7px 40px;
+    margin: 15px 0px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+@media (max-width:"1000"){
+    .login-page {
+        width: 34%;
+    }
+}
